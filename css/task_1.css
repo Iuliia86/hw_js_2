@@ -1,0 +1,20 @@
+div {
+  display: flex;
+  height: 100%;
+  box-shadow: 0 0 30px rgb(251, 219, 38);
+  border-radius: 50%;
+  margin: 100px;
+  padding: 50px;
+  text-align: center;
+}
+img {
+  width: 400px;
+  margin: auto;
+}
+p {
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px yellow;
+  margin: auto;
+}

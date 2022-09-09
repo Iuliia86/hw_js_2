@@ -1,0 +1,41 @@
+h1 {
+  text-transform: uppercase;
+  color: rgb(94, 255, 0);
+  text-shadow: 2px 2px 2px rgb(5, 5, 5);
+  text-align: center;
+  font-size: 50px;
+}
+div {
+  display: flex;
+}
+ul {
+  list-style: none;
+  margin: auto;
+}
+li {
+  padding-left: 10px;
+  position: relative;
+  font-size: 30px;
+}
+li:before {
+  content: "✔";
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  color: rgb(94, 255, 0);
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgb(74, 72, 72);
+}
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin: 50px;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
